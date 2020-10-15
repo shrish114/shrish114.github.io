@@ -1,0 +1,180 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>shrishti's portfolio!</title>
+
+
+  <style>
+    header{
+      background-image: url('back11.jpeg');
+      background-size: 600px 700px;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 1000px;
+      min-width: 60px;
+    }
+    .section{
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+    }
+    @media screen and (max-width: 670px){
+      header{
+        min-height: 500px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper black">
+      <div class="container">
+        <a href="" class="brand-logo">Welcome to Shrishti's Portfolio!</a>
+        <a href="" class="sidenav-trigger" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#contact">about me</a></li>
+            <li><a href="#services">get in touch</a></li>
+          
+         </ul>
+         <ul class="sidenav orange lighten-2" id="mobile-menu">
+            <li><a href="#">about me</a></li>
+            <li><a href="#">get in touch</a></li>
+            
+         </ul>
+        </div>
+      </nav>  
+      </div>
+    </nav>
+  </header>
+
+   <!-- services / tabs -->
+   <section class="container section" id="contact">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="indigo-text text-darken-4">I am glad that you're visiting this portfolio website of mine. So, here are a few things about me and my work that i would like to share with you.</h2>
+      </div>
+      <div class="col s12 l6 offset-l2">
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#note1" class="indigo-text text-darken-4">personal info</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#note2" class="indigo-text text-darken-4">my work</a>
+          </li>
+        </ul>
+        <div class="col s12" id="note1">
+          <p class="flow-text indigo-text text-darken-4">PERSONAL INFO</p>
+          <p> Name : Shrishti Gupta</p>
+          <p>DOB : 09/09/1999</p>
+          <p>Education : pursuing BTech from Vellore Institute of Technology, Vellore.</p>
+          <p>Co-curricular achievements : Singing & instruments, Painting, Sports</p>
+        
+        </div>
+        <div class="col s12" id="note2">
+          <p class="flow-text indigo-text text-darken-4">MY WORK</p>
+          <p>Below, if you scroll a little bit, you'll find the list of my works and my qualifications. If you find something that you wish to contact me for, you'll be most welcomed.</p>
+        </div>
+      </div>
+    </div>
+ </section>
+
+  <!-- photo / grid -->
+  <section class="container section" id="photos">
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="pic3.jpeg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-lighten-1">Python, java, C, C++</h2>
+        <p>I'm thorough with these languages and have developed a game using python. Also, I've worked on certain projects related to each of the languages.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="pic2.jpeg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-lighten-1">Web Development</h2>
+        <p> I've developed a lot of web pages, formal and informal.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="pic4.jpeg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-lighten-1">Ethical hacking</h2>
+        <p>I currently am working on this, and learning about this.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="da1 pic.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-lighten-1">My work</h2>
+        <p>the above are the list of my works so far, I'll be working on more in the coming days.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- contact form -->
+<section class="container section" id="services">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="indigo-text text-darken-4">Get in touch</h2>
+      </div>
+      <div class="col s12 l6 offset-l2">
+          <form action="">
+              <div class="input-field">
+                  <i class="material-icons prefix">email</i>
+                  <input type="email" id="email">
+                  <label for="email">your email</label>
+              </div>
+              <div class="input-field">
+                  <i class="material-icons prefix">message</i>
+                  <textarea id="message" class="materialize-textarea"></textarea>
+                  <label for="message">your message</label>
+              </div>
+          </form>
+      </div>
+    </div>
+</section>
+
+  <!-- footer -->
+  <footer class="page-footer black">
+    <div class="containee">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5>if you like my work, contact at : shrishtiii.099@gmaiil.com</h5>
+          <p>7974033927</p>
+          <p>Shrishti Gupta</p> 
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+    });
+  </script>
+</body>
+</html>
